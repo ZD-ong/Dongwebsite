@@ -1,0 +1,50 @@
+section, header, atricle, nav{
+	display: block;
+}
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	margin: 1em 10%;
+    max-width: 80em;
+}
+header{
+	background-image: url(../images/logo.gif);
+	background-repeat: no-repeat;
+	background-position: bottom right;
+	border-width: .1em;
+	border-bottom-width: 0;
+	border-top-width: 0;
+	padding-left: 0;
+}
+header nav ul{
+	width: 100%;
+	overflow: hidden;
+	border-left-width: 0em;
+	border-right-width: 0em;
+	border-left-style: solid;
+	border-right-style: solid;
+}
+header nav li{
+	display: inline;
+}
+header nav li a{
+	display: block;
+	float: left;
+	padding: .5em 2em;
+	border-right: .1em solid;
+}
+article{
+	border-width: .1em;
+	border-style: solid;
+	border-top-width: 0;
+	padding: 2em 10%;
+	line-height: 1.8em;
+}
+atricle img{
+	border-width: .1em;
+	border-style: solid;
+	outline-width: .1em;
+	outline-style: solid;
+}
