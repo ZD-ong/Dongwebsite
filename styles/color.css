@@ -1,0 +1,48 @@
+body{
+	color: #ffffff;	
+	background-color: #a93226;
+}
+a:link{
+	color: #f1948a;
+}
+a:visited{
+	color: #d35400;
+}
+a:hover{
+	color: #ffffff;
+}
+a:active{
+	color: #ffffff;
+}
+header{
+	color: #ffffff;
+	background-color: #641e16;
+	border-color: #667;
+}
+header nav{
+	color: #445;
+	border-color: #667;
+}
+header nav ul{
+	border-color: #ffffff;
+}
+header nav a:link,header nav a:visited{
+	color: #ffffff;
+	background-color: transparent;
+	border-color: #922b21;
+}
+header nav a:hover{
+	color: #ffffff;
+	background-color: #d0d3d4;
+}
+header nav a:active{
+	color: #667;
+	background-color: #ec8;
+}
+article img{
+	border-color: #ba9;
+	outline-color: #dcb;
+}
+#imagegallery a{
+	background-color: transparent;
+}
