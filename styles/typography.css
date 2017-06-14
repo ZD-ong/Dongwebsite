@@ -1,0 +1,35 @@
+body{
+	font-size: 80%;
+	font-family: "Helvetica","Arial",sans-serif;
+}
+body*{
+	font-size: 2em;
+}
+a{
+	font-weight: bold;
+	text-decoration: none;
+}
+header nav{
+	font-family: "Lucida Grande","Helvetica","Arial",sans-serif;
+}
+header nav a{
+	text-decoration:none;
+	font-weight: bold;
+}
+article{
+	line-height: 1.8em;
+}
+article p{
+	margin: 1em 0;
+}
+h1{
+	font-family:"Georgia","Times New Roman",sans-serif;
+	font: 2.4em normal;
+	margin-top: 0.5em;
+}
+#imagegallery li{
+	list-style-type: none;
+}
+textarea{
+	font-family:"Helvetica","Arial",sans-serif;
+}
