@@ -48,3 +48,12 @@ atricle img{
 	outline-width: .1em;
 	outline-style: solid;
 }
+.logo{
+	width: 100%;
+	overflow: hidden;
+	border-left-width: 0em;
+	border-right-width: 0em;
+	border-left-style: solid;
+	border-right-style: solid; 
+	
+}
