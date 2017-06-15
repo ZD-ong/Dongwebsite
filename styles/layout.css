@@ -7,12 +7,9 @@ section, header, atricle, nav{
 }
 body{
 	margin: 1em 10%;
-    max-width: 80em;
+    max-width: 100em;
 }
 header{
-	background-image: url(../images/logo.gif);
-	background-repeat: no-repeat;
-	background-position: bottom right;
 	border-width: .1em;
 	border-bottom-width: 0;
 	border-top-width: 0;
