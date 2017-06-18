@@ -50,3 +50,15 @@ height: auto;
 width: auto\9; 
 width:100%; 
 } 
+#Profile header{
+	background-image: url(../images/lineup.gif);
+}
+#Experience header{
+	background-image: url(../images/basshead.gif);
+}
+#Contact header{
+	background-image: url(../images/bassist.gif);
+}
+#other header{
+	background-image: url(../images/drummer.gif);
+}
