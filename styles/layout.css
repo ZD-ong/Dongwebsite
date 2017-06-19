@@ -46,9 +46,9 @@ atricle img{
 	outline-style: solid;
 }
 img { 
-height: auto; 
-width: auto\9; 
-width:100%; 
+	height: auto; 
+	width: auto\9; 
+	width:100%; 
 } 
 #Profile header{
 	background-image: url(../images/lineup.gif);
@@ -61,4 +61,15 @@ width:100%;
 }
 #other header{
 	background-image: url(../images/drummer.gif);
+}
+#slideshow{
+	width: 150px;
+	height: 150px;
+	position: relative;
+	overflow: hidden;
+}
+#preview{
+	position: absolute;
+	border-width: 0;
+	outline-width: 0;
 }
