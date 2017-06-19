@@ -73,3 +73,9 @@ img {
 	border-width: 0;
 	outline-width: 0;
 }
+#frame{
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 99;
+}
