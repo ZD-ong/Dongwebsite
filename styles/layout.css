@@ -1,4 +1,4 @@
-section, header, atricle, nav{
+section header, article, nav{
 	display: block;
 }
 *{
@@ -7,21 +7,39 @@ section, header, atricle, nav{
 }
 body{
 	margin: 1em 10%;
-    max-width: 100em;
+	background-image: url(../images/background.gif);
+	/*设置固定的背景图像，fixed：当页面其余部分滚动时，背景不会移动*/
+	background-attachment: fixed;
+	/*定位背景图像*/
+	background-position: top left;
+	/*如何设置背景图像重复，在这里是水平重复*/
+	background-repeat: repeat-x;
+	max-width: 80em;
 }
 header{
-	border-width: .1em;
+	background-image: url(../images/guitarist.gif);
+	background-repeat: no-repeat;
+	/*居右下角对其*/
+	background-position: top right;
+	border-width: 0em;
+	border-style: solid;
 	border-bottom-width: 0;
 	border-top-width: 0;
-	padding-left: 0;
+}
+header nav{
+	background-image: url(../images/navbar.gif);
+	background-position: bottom left;
+	background-repeat: repeat-x;
+	border-width: 0em;
+	border-style: solid;
+	border-bottom-width: 0;
+	border-top-width: 0;
 }
 header nav ul{
 	width: 100%;
 	overflow: hidden;
 	border-left-width: 0em;
-	border-right-width: 0em;
 	border-left-style: solid;
-	border-right-style: solid;
 }
 header nav li{
 	display: inline;
@@ -39,27 +57,22 @@ article{
 	padding: 2em 10%;
 	line-height: 1.8em;
 }
-atricle img{
+article img{
 	border-width: .1em;
 	border-style: solid;
 	outline-width: .1em;
 	outline-style: solid;
 }
-img { 
-	height: auto; 
-	width: auto\9; 
-	width:100%; 
-} 
-#Profile header{
+#about header{
 	background-image: url(../images/lineup.gif);
 }
-#Experience header{
+#photos header{
 	background-image: url(../images/basshead.gif);
 }
-#Contact header{
+#live header{
 	background-image: url(../images/bassist.gif);
 }
-#other header{
+#contact header{
 	background-image: url(../images/drummer.gif);
 }
 #slideshow{
@@ -78,4 +91,10 @@ img {
 	top: 0;
 	left: 0;
 	z-index: 99;
+	border-width: 0;
+    outline-width: 0;
 }
+#imagegallery li{
+	display: inline;
+}
+
