@@ -75,6 +75,9 @@ article img{
 #contact header{
 	background-image: url(../images/drummer.gif);
 }
+#other header{
+	background-image: url(../images/guitarist.gif)
+}
 #slideshow{
 	width: 150px;
 	height: 150px;
