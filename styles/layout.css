@@ -63,13 +63,13 @@ article img{
 	outline-width: .1em;
 	outline-style: solid;
 }
-#about header{
+#home header{
 	background-image: url(../images/lineup.gif);
 }
-#photos header{
+#profile header{
 	background-image: url(../images/basshead.gif);
 }
-#live header{
+#experience header{
 	background-image: url(../images/bassist.gif);
 }
 #contact header{
