@@ -7,7 +7,6 @@ section header, article, nav{
 }
 body{
 	margin: 1em 10%;
-	background-image: url(../images/background.gif);
 	/*设置固定的背景图像，fixed：当页面其余部分滚动时，背景不会移动*/
 	background-attachment: fixed;
 	/*定位背景图像*/
@@ -100,4 +99,9 @@ article img{
 #imagegallery li{
 	display: inline;
 }
-
+label{
+	display: block;
+}
+fieldset{
+	border: 0;
+}
