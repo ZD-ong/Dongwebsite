@@ -7,12 +7,7 @@ section header, article, nav{
 }
 body{
 	margin: 1em 10%;
-	/*设置固定的背景图像，fixed：当页面其余部分滚动时，背景不会移动*/
-	background-attachment: fixed;
-	/*定位背景图像*/
-	background-position: top left;
-	/*如何设置背景图像重复，在这里是水平重复*/
-	background-repeat: repeat-x;
+
 	max-width: 80em;
 }
 header{
