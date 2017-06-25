@@ -150,16 +150,16 @@ function prepareSlideshow(){
 			if (destination.indexOf("index.html")!=-1){
 				moveElement("preview",0,0,5);
 			}
-			if (destination.indexOf("about.html")!=-1){
+			if (destination.indexOf("profile.html")!=-1){
 				moveElement("preview",-150,0,5);
 			}
-			if (destination.indexOf("photos.html")!=-1){
+			if (destination.indexOf("Experience.html")!=-1){
 				moveElement("preview",-300,0,5);
 			}
-			if (destination.indexOf("live.html")!=-1){
+			if (destination.indexOf("Contact.html")!=-1){
 				moveElement("preview",-450,0,5);
 			}
-			if (destination.indexOf("contact.html")!=-1){
+			if (destination.indexOf("other.html")!=-1){
 				moveElement("preview",-600,0,5);
 			}
 		}
