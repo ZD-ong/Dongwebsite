@@ -100,3 +100,9 @@ label{
 fieldset{
 	border: 0;
 }
+th{
+	padding: 1em 5em;
+}
+td{
+	padding: .5em 5em;
+}

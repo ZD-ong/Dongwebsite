@@ -150,7 +150,7 @@ function prepareSlideshow(){
 			if (destination.indexOf("index.html")!=-1){
 				moveElement("preview",0,0,5);
 			}
-			if (destination.indexOf("profile.html")!=-1){
+			if (destination.indexOf("Profile.html")!=-1){
 				moveElement("preview",-150,0,5);
 			}
 			if (destination.indexOf("Experience.html")!=-1){
@@ -166,6 +166,41 @@ function prepareSlideshow(){
 	}
 }
 
+
+function stripeTables(){
+	if(!document.getElementsByTagName) return false;
+	if(!document.getElementsByTagName("table")) return false;
+	var tables= document.getElementsByTagName("table");
+	for (var i=0;i<tables.length;i++){
+		var odd= false;
+		var rows= tables[i].getElementsByTagName("tr");
+		for (var j=0;j<rows.length;j++){
+			if (odd==true){
+				addClass(rows[j],"odd");
+				odd=false;
+			}else{
+				odd= true;
+			}
+		}
+	}
+}
+
+function highlightRows(){
+	if(!document.getElementsByTagName) return false;
+	var rows=document.getElementsByTagName("tr");
+	for (var i=0;i<rows.length;i++){
+		rows[i].oldClassName= rows[i].className
+		rows[i].onmouseover= function(){
+			addClass(this,"highlight");
+		}
+		rows[i].onmouseout= function(){
+			this.className= this.oldClassName
+		}
+	}
+}
+
 addLoadEvent(highlightPage);
 addLoadEvent(prepareInternalnav);
 addLoadEvent(prepareSlideshow);
+addLoadEvent(stripeTables);
+addLoadEvent(highlightRows);
